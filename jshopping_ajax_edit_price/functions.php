@@ -1,6 +1,6 @@
 <?php
 /**
-* @version      1.0.2 August 2017
+* @version      1.0.1 August 2017
 * @author       Igor Levoshkin
 * @package      Jshopping
 * @copyright    Copyright (C) 2017 Igor Levoshkin. All rights reserved.
