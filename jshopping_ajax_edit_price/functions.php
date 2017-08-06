@@ -7,6 +7,7 @@
 * @license      GNU/GPL
 */
 	include(dirname(__FILE__)."/lang/ru-RU/ru-RU.php");
+
 ?>
 <style>
 #bg {
