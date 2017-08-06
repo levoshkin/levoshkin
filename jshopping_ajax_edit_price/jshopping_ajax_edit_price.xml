@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" method="upgrade" group="jshopping">
+    <name>JoomShopping - Ajax edit price in products list</name>
+    <creationDate>08.04.2017</creationDate>
+    <version>1.0.0</version>
+    <author>Igor Levoshkin</author>
+    <authorEmail>levoshkin@yandex.ru</authorEmail>
+    <authorUrl>http://www.055.net.ua</authorUrl>
+    <copyright>Copyright (C) 2017. All rights reserved</copyright>
+    <license>Igor Levoshkin</license>
+    <description>JoomShopping - Ajax edit price in products list</description>
+	<files>
+		<filename plugin = "jshopping_ajax_edit_price">jshopping_ajax_edit_price.php</filename>
+		<filename>functions.php</filename>
+		<folder>lang</folder>
+	</files>
+</extension>
