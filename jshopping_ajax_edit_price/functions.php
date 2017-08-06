@@ -7,7 +7,6 @@
 * @license      GNU/GPL
 */
 	include(dirname(__FILE__)."/lang/ru-RU/ru-RU.php");
-
 ?>
 <style>
 #bg {
@@ -299,9 +298,7 @@ function editPrice(e)
 					tr.find('#product_qty').eq(0).text(parseFloat(response.data[0][0].product_quantity));
 
 				//Close the form
-				jQuery('#div_form').hide();
-				jQuery('#div_form form').remove();
-				jQuery('#bg').hide();
+				closeForm();
 			}
 		});
 }
