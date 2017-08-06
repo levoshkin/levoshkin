@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" method="upgrade" group="jshopping">
+    <name>JoomShopping - Tab discount in product edit</name>
+    <creationDate>03.05.2017</creationDate>
+    <version>1.0.0</version>
+    <author>Igor Levoshkin</author>
+    <authorEmail>levoshkin@yandex.ru</authorEmail>
+    <authorUrl>http://www.055.net.ua</authorUrl>
+    <copyright>Copyright (C) 2017. All rights reserved</copyright>
+    <license>Igor Levoshkin</license>
+    <description>JoomShopping - Tab discount in product edit</description>
+	<files>
+		<filename plugin = "jshopping_product_oldprice">jshopping_product_oldprice.php</filename>
+		<folder>tmpl</folder>
+		<folder>lang</folder>
+		<folder>sql</folder>
+	</files>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+</extension>
